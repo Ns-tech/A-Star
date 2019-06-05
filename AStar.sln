@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AStar", "AStar\AStar.csproj", "{8B0B7845-2ED4-4940-9FC1-541B11DF5750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelO", "ExcelO\ExcelO.csproj", "{8EB16BB7-9F2D-454A-957C-DECAC0A3A847}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B0B7845-2ED4-4940-9FC1-541B11DF5750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B0B7845-2ED4-4940-9FC1-541B11DF5750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B0B7845-2ED4-4940-9FC1-541B11DF5750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B0B7845-2ED4-4940-9FC1-541B11DF5750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB16BB7-9F2D-454A-957C-DECAC0A3A847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB16BB7-9F2D-454A-957C-DECAC0A3A847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB16BB7-9F2D-454A-957C-DECAC0A3A847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB16BB7-9F2D-454A-957C-DECAC0A3A847}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D25A484C-E6BB-4141-89F7-ADBF7C604A3A}
+	EndGlobalSection
+EndGlobal
