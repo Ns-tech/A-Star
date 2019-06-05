@@ -20,7 +20,7 @@ namespace ExcelO
             Microsoft.Office.Interop.Excel.Workbook xlWorkbook = xlApp.Workbooks.Open(path);
             Microsoft.Office.Interop.Excel._Worksheet xlWorksheet1 = xlWorkbook.Sheets[1];
             Microsoft.Office.Interop.Excel._Worksheet xlWorksheet2 = xlWorkbook.Sheets[2];
-            Microsoft.Office.Interop.Excel.Range xlRange = xlWorksheet1.;
+            Microsoft.Office.Interop.Excel.Range xlRange = xlWorksheet1.UsedRange;
 
             int rowCount = xlRange.Rows.Count;
             int colCount = xlRange.Columns.Count;
